@@ -15,7 +15,7 @@ use SymfonyId\AdminBundle\Controller\CrudController;
  * @Route("/idname")
  *
  * @Siab\Page("IdName", description="Description of IdName")
- * @Siab\Crud("AppBundle\Entity\IdName", form="AppBundle\Form\IdNameType")
+ * @Siab\Crud("AppBundle\Entity\IdName", form="AppBundle\Form\Type\IdNameType")
  * @Siab\Grid(@Siab\Column({"name"}), filter=@Siab\Filter({"name"}))
  */
 class IdNameController extends CrudController
