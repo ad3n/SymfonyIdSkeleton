@@ -86,6 +86,7 @@ form:
 
 entity:
     fields:
+        name: 'Nama'
         full_name: 'Nama Lengkap'
         avatar: 'Foto Avatar'
         username: 'Nama Pengguna'

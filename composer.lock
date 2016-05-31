@@ -2426,23 +2426,23 @@
         },
         {
             "name": "predis/predis",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04"
+                "reference": "9ead747663bb1b1ae017dfa0d152aca87792b42f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/84060b9034d756b4d79641667d7f9efe1aeb8e04",
-                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/9ead747663bb1b1ae017dfa0d152aca87792b42f",
+                "reference": "9ead747663bb1b1ae017dfa0d152aca87792b42f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-curl": "Allows access to Webdis when paired with phpiredis",
@@ -2465,14 +2465,14 @@
                     "homepage": "http://clorophilla.net"
                 }
             ],
-            "description": "Flexible and feature-complete PHP client library for Redis",
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
             "homepage": "http://github.com/nrk/predis",
             "keywords": [
                 "nosql",
                 "predis",
                 "redis"
             ],
-            "time": "2015-07-30 18:34:15"
+            "time": "2016-05-30 15:25:52"
         },
         {
             "name": "psr/cache",
@@ -3498,12 +3498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymfonyId/SymfonyIdAdminBundle.git",
-                "reference": "b29b26268305c21eb1680a47325320d6a5004105"
+                "reference": "7c3d02c28a4a883c7d0f0b327ae55e0aa54e4d34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymfonyId/SymfonyIdAdminBundle/zipball/b29b26268305c21eb1680a47325320d6a5004105",
-                "reference": "b29b26268305c21eb1680a47325320d6a5004105",
+                "url": "https://api.github.com/repos/SymfonyId/SymfonyIdAdminBundle/zipball/7c3d02c28a4a883c7d0f0b327ae55e0aa54e4d34",
+                "reference": "7c3d02c28a4a883c7d0f0b327ae55e0aa54e4d34",
                 "shasum": ""
             },
             "require": {
@@ -3576,7 +3576,7 @@
                 "symfony admin",
                 "symfony3"
             ],
-            "time": "2016-05-30 10:13:57"
+            "time": "2016-05-31 02:48:16"
         },
         {
             "name": "twig/twig",

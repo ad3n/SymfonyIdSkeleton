@@ -55,8 +55,7 @@ symfonyid_admin:
         loader: 'symfonyid.admin.menu.default_menu_loader'
     upload_dir: 'uploads'
     driver: 'orm' #odm or both
-    translation_domain: 'SymfonyIdAdminBundle'
-    profile_fields: ['full_name', 'username', 'email', 'roles', 'enabled']
+    translation_domain: 'AppBundle'
     filters: ['name']
     number_format:
         decimal_precision: 0
@@ -68,6 +67,7 @@ symfonyid_admin:
         auto_enable: true
         show_fields: ['fullName', 'username', 'email', 'roles', 'enabled']
         grid_columns: ['fullName', 'username', 'email', 'roles', 'enabled']
+        profile_fields: ['fullName', 'username', 'email', 'roles', 'enabled']
         filters: ['fullName', 'username']
         password_form: 'symfonyid.admin.form.change_password_form'
     themes:
