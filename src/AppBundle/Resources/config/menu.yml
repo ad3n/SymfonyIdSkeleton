@@ -1,0 +1,9 @@
+idname:
+    route: 'app_admin_idname_list'
+    child:
+        idname_2:
+            route: 'app_admin_idname_list_1'
+            icon: 'fa-circle-o text-aqua'
+        idname_3:
+            route: 'app_admin_idname_list'
+            icon: 'fa-circle-o text-red'
