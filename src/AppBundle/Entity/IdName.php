@@ -7,8 +7,7 @@ namespace AppBundle\Entity;
  */
 
 use Doctrine\ORM\Mapping as ORM;
-use SymfonyId\AdminBundle\Annotation\Filter;
-use SymfonyId\AdminBundle\Annotation\Column;
+use SymfonyId\AdminBundle\Annotation as Siab;
 use SymfonyId\AdminBundle\Model\ModelInterface;
 use SymfonyId\AdminBundle\Model\BulkDeletableInterface;
 
@@ -26,8 +25,8 @@ class IdName implements ModelInterface, BulkDeletableInterface
     protected $id;
 
     /**
-     * @Column()
-     * @Filter()
+     * @Siab\Column()
+     * @Siab\Filter()
      * @ORM\Column(name="program_name", type="string", length=77)
      */
     protected $name;
