@@ -3499,12 +3499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymfonyId/SymfonyIdAdminBundle.git",
-                "reference": "bae1d521ad8429499c1aa649f8460fad77641bc5"
+                "reference": "d80c4bba05d1e5849e4926b5b8d05c22b7310c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymfonyId/SymfonyIdAdminBundle/zipball/bae1d521ad8429499c1aa649f8460fad77641bc5",
-                "reference": "bae1d521ad8429499c1aa649f8460fad77641bc5",
+                "url": "https://api.github.com/repos/SymfonyId/SymfonyIdAdminBundle/zipball/d80c4bba05d1e5849e4926b5b8d05c22b7310c9a",
+                "reference": "d80c4bba05d1e5849e4926b5b8d05c22b7310c9a",
                 "shasum": ""
             },
             "require": {
@@ -3577,7 +3577,7 @@
                 "symfony admin",
                 "symfony3"
             ],
-            "time": "2016-06-02 03:49:50"
+            "time": "2016-06-02 03:54:52"
         },
         {
             "name": "twig/twig",
