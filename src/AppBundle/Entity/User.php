@@ -1,11 +1,15 @@
 <?php
 
-namespace AppBundle\Entity;
-
 /*
- * Author: Muhammad Surya Ihsanuddin<surya.kejawen@gmail.com>
- * Url: https://github.com/ihsanudin
+ * This file is part of the SymfonyIdSkeleton package.
+ *
+ * (c) Muhammad Surya Ihsanuddin <surya.kejawen@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
+
+namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use SymfonyId\AdminBundle\User\UserTimestampable as BaseUser;
@@ -13,6 +17,8 @@ use SymfonyId\AdminBundle\User\UserTimestampable as BaseUser;
 /**
  * @ORM\Entity()
  * @ORM\Table(name="siab_user")
+ *
+ * @author Muhammad Surya Ihsanuddin <surya.kejawen@gmail.com>
  */
 class User extends BaseUser
 {
