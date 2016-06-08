@@ -27,7 +27,7 @@ class IdName implements ModelInterface, BulkDeletableInterface
     /**
      * @Siab\Column()
      * @Siab\Filter()
-     * @ORM\Column(name="program_name", type="string", length=77)
+     * @ORM\Column(name="name", type="string", length=77)
      */
     protected $name;
 
