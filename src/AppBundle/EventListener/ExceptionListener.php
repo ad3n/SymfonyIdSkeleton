@@ -11,6 +11,7 @@
 
 namespace AppBundle\EventListener;
 
+use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
@@ -23,9 +24,15 @@ class ExceptionListener
      */
     private $kernel;
 
-    public function __construct(KernelInterface $kernel)
+    /**
+     * @var LoggerInterface
+     */
+    private $logger;
+
+    public function __construct(KernelInterface $kernel, LoggerInterface $logger)
     {
         $this->kernel = $kernel;
+        $this->logger = $logger;
     }
 
     public function onKernelException(GetResponseForExceptionEvent $event)
@@ -37,6 +44,9 @@ class ExceptionListener
         $exception = $event->getException();
         $response = new Response();
         $response->setStatusCode(Response::HTTP_INTERNAL_SERVER_ERROR);
+
+        $this->logger->error($exception->getMessage());
+        $this->logger->error($exception->getTraceAsString());
 
         if ($exception instanceof HttpExceptionInterface) {
             if (400 < $exception->getStatusCode() && 500 > $exception->getStatusCode()) {
