@@ -38,7 +38,7 @@
         "pagerfanta/pagerfanta": "~1.0",
         "predis/predis": "^1.0",
         "doctrine/doctrine-fixtures-bundle": "~2.0",
-        "symfonyid/symfonyid-admin-bundle": "dev-master",
+        "symfonyid/symfonyid-admin-bundle": "~0.9",
         "snc/redis-bundle": "2.x-dev",
         "knplabs/knp-paginator-bundle": "~2.5@dev",
         "knplabs/knp-menu-bundle": "~2.1@dev",
